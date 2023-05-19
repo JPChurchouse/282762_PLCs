@@ -1,23 +1,17 @@
 <?xml version="1.0"?>
 <TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.44">
-	<Project ProjectGUID="{66CD27E8-9024-4798-ABA6-EE34F26A15D6}" Target64Bit="true" ShowHideConfigurations="#x106">
+	<Project ProjectGUID="{CC33ECD9-DE12-414E-AE51-761328ACE448}" Target64Bit="true" ShowHideConfigurations="#x106">
 		<System>
 			<Tasks>
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
 					<Name>PlcTask</Name>
 				</Task>
-				<Task Id="4" Priority="21" CycleTime="100000" AmsPort="351" AdtTasks="true">
-					<Name>PlcTask1</Name>
-				</Task>
-				<Task Id="5" Priority="22" CycleTime="100000" AmsPort="352" AdtTasks="true">
-					<Name>PlcTask2</Name>
-				</Task>
 			</Tasks>
 		</System>
 		<Plc>
-			<Project GUID="{51FCCFEB-1092-460B-B1EB-DFD34056EDA3}" Name="Untitled3" PrjFilePath="Untitled3\Untitled3.plcproj" TmcFilePath="Untitled3\Untitled3.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+			<Project GUID="{E043D8F6-C2CC-4434-B5EA-40A7D52E2029}" Name="plc" PrjFilePath="plc\plc.plcproj" TmcFilePath="plc\plc.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
 				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
-					<Name>Untitled3 Instance</Name>
+					<Name>plc Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Contexts>
 						<Context>
