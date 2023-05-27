@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{bb76164a-6d10-4533-8d94-ca03bbe06562}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	// Q1
+	//loop : INT := 1;
+	
+	// Q2
+	//tempurature : REAL := 26.5;
+	
+	// Q3
+	// INT : num1 := 1;	
+	// Type and name are wrong way round
+	// Should be:
+	// num1 : INT := 1;
+	
+	// Q4
+	// num1 := 1;	
+	// No variable type
+	// Should be:
+	// num1 : INT := 1;
+	
+	// Q5
+	// Refer to "SrT"
+	
+	// Q6
+	// C will be TRUE
+	
+	// Q7
+	// C will be TRUE
+	
+	// Q8
+	// 
+	
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[POU_FBD();]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

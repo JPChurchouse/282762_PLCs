@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="SrT" Id="{56fd8783-0a52-42eb-821a-07df2e5a70c6}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM POU_ST
+VAR
+	num1 : INT := 1;
+ 	num2 : INT := 2;
+ 	res : INT := 0;
+	
+	op1 : INT := 0;
+	op2 : INT := 0;
+END_VAR
+
+// res will be -5
+// 1 / 2 -> 0.5 -> 0
+// 0 - 5 -> -5
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[op1 := num1;
+op2 := num2;
+res := op1 / op2 - 5;
+]]></ST>
+    </Implementation>
+    <LineIds Name="SrT">
+      <LineId Id="6" Count="2" />
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

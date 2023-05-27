@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="Q5" Id="{c4d1b6c9-f973-44c0-9559-1eafc47efa2a}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM Q5
+VAR
+	num1 : INT := 1;
+ 	num2 : INT := 2;
+ 	res : INT := 0;
+	op1: INT;
+	op2: INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[op1 := num1;
+op2 := num2;
+res := op1 / op2 - 5;
+
+// To run, paste "Q5();" into the MAIN proram
+// Result: res == -5
+// 1 / 2 = 0.5 -> 0
+// 0 - 5 = -5]]></ST>
+    </Implementation>
+    <LineIds Name="Q5">
+      <LineId Id="14" Count="3" />
+      <LineId Id="5" Count="0" />
+      <LineId Id="18" Count="2" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

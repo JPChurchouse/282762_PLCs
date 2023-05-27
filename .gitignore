@@ -26,3 +26,6 @@ _ModuleInstall/
 FermenterDemo/.vs
 FermenterSterilise/FermenterSterilise/.vs
 Practice1/.vs
+PracticeTest/.vs
+/.vs
+*.suo

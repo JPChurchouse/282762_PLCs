@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="Q3" Id="{fa57265e-fa60-475b-8b69-c379cbc68b91}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM Q3
+VAR
+	// INT : num1 := 1;
+	// DataType and VarName are wrong way round
+	num1 : INT := 1;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <LineIds Name="Q3">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
