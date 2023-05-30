@@ -11,12 +11,14 @@ END_VAR
     <Implementation>
       <ST><![CDATA[//Q3(); // Uncomment to run Question Three
 //Q4(); // Uncomment to run Question Four
-Q6();]]></ST>
+Q7(); // Uncomment to run Question Seven
+]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
       <LineId Id="10" Count="0" />
       <LineId Id="9" Count="0" />
+      <LineId Id="17" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
