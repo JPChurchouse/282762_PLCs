@@ -11,7 +11,7 @@ END_VAR
     <Implementation>
       <ST><![CDATA[//Q3(); // Uncomment to run Question Three
 //Q4(); // Uncomment to run Question Four
-]]></ST>
+Q6();]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />

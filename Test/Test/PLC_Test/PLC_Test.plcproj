@@ -23,6 +23,9 @@
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Q5.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Q1.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -33,6 +36,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Q4.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\Q6.TcPOU">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
