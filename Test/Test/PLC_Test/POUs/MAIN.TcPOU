@@ -4,12 +4,19 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 END_VAR
+
+// Code also available on my GitHub (will make it public after the test closes)
+// https://github.com/JPChurchouse/282762_PLCs/tree/main/Test
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[mictestonetwo();]]></ST>
+      <ST><![CDATA[//Q3(); // Uncomment to run Question Three
+//Q4(); // Uncomment to run Question Four
+]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
+      <LineId Id="10" Count="0" />
+      <LineId Id="9" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
